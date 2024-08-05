@@ -5,7 +5,7 @@ Module for creating and managing asyncio Tasks.
 
 import asyncio
 from typing import List
-time_wait_random = __import__('3-tasks').task_wait_random
+task_wait_random = __import__('3-tasks').task_wait_random
 
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
